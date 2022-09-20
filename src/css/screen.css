@@ -1,0 +1,33 @@
+.movie-info{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-text{
+    width: 500px;
+    margin-top: 30px;
+}
+
+.movie-data{
+    margin-top: 30px;
+}
+
+.movie-img{
+    margin-top: 20px;
+    width: 250px;
+}
+
+.botao-volta{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    background-color: #272727;
+    margin-top: 20px;
+}
+

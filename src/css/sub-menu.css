@@ -1,0 +1,22 @@
+.categories-submenu{
+    font-size: 10px;
+    background-color: rgb(126, 126, 126);
+
+ }
+
+ .menu-nav nav ul ul{
+    display: none;
+    position: absolute;
+    width: 98px;
+    top: 78px;
+    left: 0;
+ }
+
+ .menu-nav nav ul ul li{
+    padding: 10px 10px;
+    font-size: 15px; 
+ }
+
+ .menu-nav nav ul li:hover > ul{
+    display: block;
+ }

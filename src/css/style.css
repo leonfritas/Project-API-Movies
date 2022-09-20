@@ -1,0 +1,88 @@
+main {
+  background: linear-gradient(to top, rgb(56, 56, 56), rgb(0, 0, 0));
+  min-height: 100vh;
+}
+
+section.painel {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  gap: 80px;
+}
+
+section.painel .text {
+  width: 500px;
+  margin-top: 50px;
+}
+
+section.painel .text p.paragrafo {
+  margin: 20px auto;
+}
+.aviso {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+section.painel .text button {
+  width: 200px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 5px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 10px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px 1px rgb(59, 59, 59);
+}
+
+section.painel .text button:active {
+  background-color: #fff;
+}
+
+section.painel .filmes {
+  width: 600px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 160px 160px 160px;
+  gap: 5px;
+  margin-top: 50px;
+}
+
+.painel .filmes .filme img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+@media (max-width: 1275px) {
+  .painel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .painel .text {
+    width: 100px;
+  }
+
+  .painel .filmes {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 60px 60px 60px;
+  }
+  div.menu-nav{
+    gap:0;
+  }
+
+ 
+
+  div.menu-social button{
+    display: none;
+  }
+  
+}
