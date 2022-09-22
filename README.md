@@ -1,6 +1,6 @@
 # Project-API-Movies
 
-<h3>Nesta página você precisa apenas digitar o nome do filme desejado, que é realizada uma busca nos dados da api e o resultado aparece na tela.</h3>
+<h3>Nesta página você precisa apenas digitar o nome do filme desejado e clicar em pesquisar ou pressionar enter, que automaticamente é realizada uma busca nos dados da api e o resultado aparece na tela.</h3>
 
 <h4>Projeto realizado com o intúito de aprimorar e fixar meus conhecimentos em Javascript.</h4>
 
