@@ -1,4 +1,4 @@
-import { getMovie } from "screen.js"
+import { getMovie } from "/screen.js"
 
 
 document.getElementById("btn").addEventListener("click", function () {
