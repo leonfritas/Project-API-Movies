@@ -1,4 +1,4 @@
-import { getMovie } from "/src/js/tela.js"
+import { getMovie } from "/src/js/screen.js"
 
 
 document.getElementById("btn").addEventListener("click", function () {
