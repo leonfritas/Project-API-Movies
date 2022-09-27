@@ -1,4 +1,4 @@
-import { movie } from "./js/movieapi.js";
+import { movie } from "./movieapi.js";
 
 function getMovie(movieName) {
   movie(movieName).then((movieData) => {
